@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.primary-color {
+	background-color: rgba(0,0,0,0.8);
+}
+
+.primary-text-color {
+	color: rgb(128, 166, 89);
+}
+
+
+.content {
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1em;
+}
+
+.content,
+#branding {
+	margin: 10px 10px;
+}
+
+#branding span {
+	font-size: 25px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+}
+
+#branding div {
+	font-size: 16px;
+}
+
+.menu a{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.menu ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.menu .current {
+	color: rgb(128, 166, 89);
+}
+
+.menu a:hover {
+	text-decoration: none;
+	color: rgb(128, 166, 89);
+}
+
+.menu .current:hover {
+	color: #fff;
+}
+
+.carousel-item{
+    height: 95%;
+}
+
+.carousel-item h5 {
+	font-size: 32px;
+	color: rgb(128, 166, 89);
+}
+
+.carousel-item h5,
+.carousel-item p {
+	text-align: center;
+}
+
+h1 {
+	color: rgb(128, 166, 89); 
+	text-align: center;
+}
+
+.service-section .grid-section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2em;
+	text-align: center;
+	padding: 20px 20px;
+}
+
+.service-section .grid-section div {
+	background-color: rgba(0,0,0,0.4);
+}
+
+.service-section .grid-section h2{
+	color: rgb(128, 166, 89);
+}
+
+/*PARALLAX IMAGE STARTS HERE*/
+
+.parallax-image1 {
+	background-image: url('../img/parallax_1.jpg');
+	min-height: 400px;
+	position: relative;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.parallax-image2 {
+	background-image: url('../img/parallax_2.jpg');
+	min-height: 400px;
+	position: relative;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.parallax-image3 {
+	background-image: url('../img/parallax_3.jpg');
+	min-height: 400px;
+	position: relative;
+	background-position: center;
+	background-attachment: fixed;
+}
+/*PARALLAX IMAGE ENDS HERE*/
+
+.location-section .grid-section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	text-align: center;
+}
+
+.location-section .grid-section img {
+	margin-top: 15px;
+	border: 2px solid #fff;
+	max-width: 450px;
+}
+
+.contact-section .grid-section {
+
+	display: grid;
+	grid-template-columns: 1fr;
+	text-align: center;
+	grid-gap: 1em;
+}
+
+.contact-section .grid-section div {
+	background-color: rgba(0,0,0,0.4);
+	height: 200px;
+}
+
+.contact-section .grid-section h2 {
+	margin-top: 10px;
+	margin-bottom: 60px;
+	color: rgb(128, 166, 89);
+}
+
+.contact-section .grid-section a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	width: 200px;
+	border: 2px solid #fff;
+	border-radius: 100px;
+	padding: 10px;
+	background-color: rgb(0,0,0.6);
+}
+
+.contact-section .grid-section a:hover{
+	background-color: #fff;
+	color: rgb(128, 166, 89);
+	text-decoration: none;
+
+}
+
+.contact-section .grid-section span {
+	margin-left: 20px;
+	font-size: 22px;
+}
+
+.contact-section .grid-section span:hover {
+	cursor: pointer;
+	color: rgb(128, 166, 89);
+}
+
+.footer-section {
+	min-height: 60px;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.contact.footer-section {
+	height: 60px;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer-section .social-links {
+	float: left;
+	margin-top: 20px;
+}
+
+.social-links a {
+	margin-right: 10px;
+}
+
+.social-links img:hover {
+	border: 1px solid rgb(128, 166, 89);
+	border-radius: 40px;
+	background-color: #fff;
+}
+
+.footer-section .copyright-section {
+	float: right;
+	margin-top: 20px;
+}
+
+.contact-form {
+	font-family: 'Bree Serif', serif;
+    font-size: 25px;
+    font-weight: 200; 
+}
+
+.contact-form .main-form label {
+	color: rgb(128, 166, 89);
+}
+
+.contact-form .main-form label,
+.contact-form .main-form input,
+.contact-form .main-form textarea {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.contact-form .main-form input:hover,
+.contact-form .main-form textarea:hover {
+	background-color: rgba(0,0,0,0.8);
+	color: rgb(128, 166, 89);
+}
+
+.contact-form .main-form .submit-button {
+	width: 50%;
+	text-align: center;
+	margin: 10px auto;
+	border-radius: 100px;
+	height: 30px;
+
+}
+
+.contact-form .main-form .submit-button:hover {
+	color: #fff ;
+	background-color: rgb(128, 166, 89); 
+}
+
+ 
